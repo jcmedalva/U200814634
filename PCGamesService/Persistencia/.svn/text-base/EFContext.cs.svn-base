@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using CentroCostoService.Dominio;
+using System.Data.Entity;
+
+namespace Persistencia.EF
+{
+    public class EFContext : DbContext
+    {
+        public EFContext(string cadenaConexion)
+            : base(cadenaConexion)
+        {
+            Database.SetInitializer<EFContext>(null);
+        }
+
+        public DbSet<CentroCosto> CentroCosto { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+        }
+    }
+}

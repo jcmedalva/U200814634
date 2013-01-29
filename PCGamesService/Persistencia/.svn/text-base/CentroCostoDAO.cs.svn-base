@@ -1,0 +1,67 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using CentroCostoService.Dominio;
+using Persistencia.EF;
+
+namespace CentroCostoService.Persistencia
+{
+    public class CentroCostoDAO
+    {
+
+        public void crearCentroCosto(CentroCosto centroCosto)
+        {
+            using (EFContext db = new EFContext(ConexionUtil.obtenerCadena()))
+            {
+                db.CentroCosto.Add(centroCosto);
+                db.SaveChanges();
+            }
+        }
+
+        public List<RendicionGastosEntity.CentroCosto> listarCentrosCosto()
+        { 
+            using (EFContext db = new EFContext(ConexionUtil.obtenerCadena()))
+            {
+                var resultado = from l in db.CentroCosto
+                                select l;
+
+                var ListaCC = new List<RendicionGastosEntity.CentroCosto>();
+                foreach (var item in resultado)
+                {
+                    var newItem = new RendicionGastosEntity.CentroCosto();
+                    newItem.codigo = item.codigo;
+                    newItem.descripcion = item.descripcion;
+                    ListaCC.Add(newItem);
+                }
+
+                return ListaCC;
+            }
+        }
+
+        public void eliminarCentroCosto(CentroCosto centroCosto)
+        {
+            using (EFContext db = new EFContext(ConexionUtil.obtenerCadena()))
+            {
+                db.CentroCosto.Remove(centroCosto);
+                db.SaveChanges();
+            }
+        }
+
+        public RendicionGastosEntity.CentroCosto obtenerCentrosCosto(int id)
+        {
+            using (EFContext db = new EFContext(ConexionUtil.obtenerCadena()))
+            {
+                var resultado = from l in db.CentroCosto
+                                where l.codigo == id select l;
+
+                var newItem = new RendicionGastosEntity.CentroCosto();
+                newItem.codigo = resultado.FirstOrDefault().codigo;
+                newItem.descripcion = resultado.FirstOrDefault().descripcion;
+
+                return newItem;
+            }
+        }
+
+    }
+}

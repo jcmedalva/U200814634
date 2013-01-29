@@ -1,0 +1,43 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.ComponentModel.DataAnnotations;
+using System.Runtime.Serialization;
+
+namespace CentroCostoService.Dominio
+{
+    [DataContract]
+    [Table("centroscosto")]
+    public class CentroCosto
+    {
+
+        public CentroCosto()
+        {
+        }
+
+        public CentroCosto(int codigo, string descripcion)
+        {
+            this.codigo = codigo;
+            this.descripcion = descripcion;
+        }
+
+        private int _codigo;
+        [Key]
+        [DatabaseGenerated(System.ComponentModel.DataAnnotations.DatabaseGeneratedOption.None)]
+        public int codigo
+        {
+            get { return _codigo; }
+            set { _codigo = value; }
+        }
+
+        private string _descripcion;
+        public string descripcion
+        {
+            get { return _descripcion; }
+            set { _descripcion = value; }
+        }
+
+
+    }
+}

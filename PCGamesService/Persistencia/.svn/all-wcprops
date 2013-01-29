@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/15/trunk/RendicionGastos/CentroCostoService/Persistencia
+END
+EFContext.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/12/trunk/RendicionGastos/CentroCostoService/Persistencia/EFContext.cs
+END
+ConexionUtil.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/12/trunk/RendicionGastos/CentroCostoService/Persistencia/ConexionUtil.cs
+END
+CentroCostoDAO.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/15/trunk/RendicionGastos/CentroCostoService/Persistencia/CentroCostoDAO.cs
+END

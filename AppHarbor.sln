@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Librerias", "Librerias", "{505E8124-7DB3-4095-A319-21145D5D921A}"
+	ProjectSection(SolutionItems) = preProject
+		Librerias\EntityFramework.dll = Librerias\EntityFramework.dll
+		Librerias\Iesi.Collections.dll = Librerias\Iesi.Collections.dll
+		Librerias\NHibernate.dll = Librerias\NHibernate.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCGamesEntity", "PCGamesEntity\PCGamesEntity.csproj", "{443FDC49-391E-4A83-9D60-E863373D534B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCGamesService", "PCGamesService\PCGamesService.csproj", "{4B1D6D8A-B37C-48A9-A2F7-70F6FDAE90BA}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{443FDC49-391E-4A83-9D60-E863373D534B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443FDC49-391E-4A83-9D60-E863373D534B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443FDC49-391E-4A83-9D60-E863373D534B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443FDC49-391E-4A83-9D60-E863373D534B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B1D6D8A-B37C-48A9-A2F7-70F6FDAE90BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B1D6D8A-B37C-48A9-A2F7-70F6FDAE90BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B1D6D8A-B37C-48A9-A2F7-70F6FDAE90BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B1D6D8A-B37C-48A9-A2F7-70F6FDAE90BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

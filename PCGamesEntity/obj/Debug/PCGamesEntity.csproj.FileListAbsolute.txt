@@ -1,0 +1,10 @@
+C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\RendicionGastosEntity\bin\Debug\RendicionGastosEntity.dll
+C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\RendicionGastosEntity\bin\Debug\RendicionGastosEntity.pdb
+C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\RendicionGastosEntity\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\RendicionGastosEntity\obj\Debug\RendicionGastosEntity.dll
+C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\RendicionGastosEntity\obj\Debug\RendicionGastosEntity.pdb
+C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\PCGamesEntity\bin\Debug\RendicionGastosEntity.dll
+C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\PCGamesEntity\bin\Debug\RendicionGastosEntity.pdb
+C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\PCGamesEntity\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\PCGamesEntity\obj\Debug\RendicionGastosEntity.dll
+C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\PCGamesEntity\obj\Debug\RendicionGastosEntity.pdb
