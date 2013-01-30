@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using PCGamesService.Dominio;
 using Persistencia.EF;
+using System.ServiceModel;
 
 namespace PCGamesService.Persistencia
 {
@@ -19,9 +20,10 @@ namespace PCGamesService.Persistencia
                     db.PCGames.Add(PCGames);
                     db.SaveChanges();
                 }
-                catch (Exception exception)
+                catch (Exception)
                 {
-                    throw new InvalidOperationException(exception.Message);
+                    var operationFault = new InvalidOperationFault { Message = "No se puede ingresar un duplicado" };
+                    throw new FaultException<InvalidOperationFault>(operationFault);
                 }
             }
         }

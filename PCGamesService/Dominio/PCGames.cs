@@ -38,6 +38,12 @@ namespace PCGamesService.Dominio
             set { _nombre = value; }
         }
 
+    }
 
+    [DataContract]
+    public class InvalidOperationFault
+    {
+        [DataMember]
+        public string Message { get; set; }
     }
 }

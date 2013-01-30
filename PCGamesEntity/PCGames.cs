@@ -9,5 +9,7 @@ namespace PCGamesEntity
     {
         public int codigo { get; set; }
         public string nombre { get; set; }
+
     }
+
 }
