@@ -16,6 +16,7 @@ namespace PCGamesService
         void registrarPCGame(int codigo, string descripcion);
 
         [OperationContract]
+        [FaultContract(typeof(InvalidOperationFault))]
         List<PCGamesEntity.PCGames> listarPCGame();
 
     }
