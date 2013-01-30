@@ -19,7 +19,10 @@ namespace PCGamesService.Persistencia
                     db.PCGames.Add(PCGames);
                     db.SaveChanges();
                 }
-                catch { }
+                catch (Exception exception)
+                {
+                    throw new InvalidOperationException(exception.Message);
+                }
             }
         }
 

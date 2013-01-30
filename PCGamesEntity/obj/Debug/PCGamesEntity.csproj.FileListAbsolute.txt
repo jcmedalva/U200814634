@@ -3,8 +3,8 @@ C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\Rendicion
 C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\RendicionGastosEntity\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\RendicionGastosEntity\obj\Debug\RendicionGastosEntity.dll
 C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\RendicionGastosEntity\obj\Debug\RendicionGastosEntity.pdb
-C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\PCGamesEntity\bin\Debug\RendicionGastosEntity.dll
-C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\PCGamesEntity\bin\Debug\RendicionGastosEntity.pdb
 C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\PCGamesEntity\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\PCGamesEntity\obj\Debug\RendicionGastosEntity.dll
-C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\PCGamesEntity\obj\Debug\RendicionGastosEntity.pdb
+C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\PCGamesEntity\bin\Debug\PCGamesEntity.dll
+C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\PCGamesEntity\bin\Debug\PCGamesEntity.pdb
+C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\PCGamesEntity\obj\Debug\PCGamesEntity.dll
+C:\Users\Administrador\Documents\Visual Studio 2010\Projects\AppHarbor\PCGamesEntity\obj\Debug\PCGamesEntity.pdb

@@ -11,7 +11,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PCGamesService</RootNamespace>
-    <AssemblyName>CentroCostoService</AssemblyName>
+    <AssemblyName>PCGamesService</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <SccProjectName>Svn</SccProjectName>
     <SccLocalPath>Svn</SccLocalPath>
